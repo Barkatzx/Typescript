@@ -1,5 +1,5 @@
 {
-  // Union Types
+  // Union Types (|)
   type Status = "success" | "error" | "loading";
 
   let currentStatus: Status;

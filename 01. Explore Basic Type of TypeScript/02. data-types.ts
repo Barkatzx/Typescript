@@ -1,5 +1,9 @@
 {
-  // Basic Data Types in Typescript
+  // TypeScript offers a robust set of data types that enable you to write strongly typed and safer code. Here's a breakdown of the most commonly used data types in TypeScript:
+
+  // 01. Primitive Data Types (String, Number, Boolean, Null, Undefined, Symbol)
+  // 02. Object Data Type (Object, Array, Tuple, Enum)
+  // 03.Others Data Types (Union, Intersection, Any, Unknown, Void, Never, Type Aliases);
 
   // String
 

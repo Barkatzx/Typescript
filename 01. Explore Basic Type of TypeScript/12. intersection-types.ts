@@ -1,5 +1,5 @@
 {
-  //Intersection Types
+  //Intersection Types (&)
   type Person = {
     name: string;
     age: number;
