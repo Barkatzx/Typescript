@@ -1,6 +1,10 @@
 {
   // Object Types
-  let person: { name: string; age: number; isActive: boolean } = {
+  let person: {
+    name: string;
+    age: number;
+    isActive: boolean;
+  } = {
     name: "Alice",
     age: 30,
     isActive: true,
