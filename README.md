@@ -100,8 +100,8 @@ Contributions are welcome! Feel free to fork this repository, add your improveme
 
 ## 🌐 Connect with Me
 
-- **GitHub**: [your-username](https://github.com/your-username)
-- **LinkedIn**: [your-profile](https://linkedin.com/in/your-profile)
+- **GitHub**: [barkatzx](https://github.com/barkatzx)
+- **LinkedIn**: [Barkat Ullah](https://linkedin.com/in/barkatzx)
 
 ---
 
