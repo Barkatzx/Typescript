@@ -87,7 +87,13 @@
 
   // Object
 
-  let user: { name: string; age: number } = { name: "Alice", age: 30 };
+  let user: {
+    name: string;
+    age: number;
+  } = {
+    name: "Alice",
+    age: 30,
+  };
 
   //Represents a non-primitive type that’s not number, string, boolean, symbol, null, or undefined. Can also define the structure of an object by specifying its properties and their types.
 
@@ -101,18 +107,24 @@
 
   //Example Program Using Different Data Types
 
-  let username: string = "Alice";
-  let score: number = 95;
-  let isPassed: boolean = true;
-  let anything: any = "Could be anything";
-  let users: { name: string; age: number } = { name: "Bob", age: 25 };
-  let fruits: string[] = ["apple", "banana", "cherry"];
-  let colorCode: [number, string] = [1, "red"];
+  let username: string = "Alice"; //String
+  let score: number = 95; //Number
+  let isPassed: boolean = true; //Boolean
+  let anything: any = "Could be anything"; //Any
+  let users: {
+    name: string;
+    age: number;
+  } = {
+    name: "Bob",
+    age: 25,
+  }; //Object
+  let fruits: string[] = ["apple", "banana", "cherry"]; //Array
+  let colorCode: [number, string] = [1, "red"]; //Tuple
   enum Role {
     Admin,
     User,
     Guest,
-  }
+  } //Enum
 
   console.log(`Name: ${username}, Score: ${score}, Passed: ${isPassed}`);
   console.log(`User: ${users.name}, Age: ${user.age}`);
