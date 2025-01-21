@@ -82,4 +82,8 @@
 
   const circle = new Circle("red", 10);
   console.log(circle.area()); // 314.1592653589793
+
+  /*Interface Vs Type
+ 
+ The main difference between an interface and a type is that an interface is a contract that defines the structure of an object, while a type is a way to define custom types. In most cases, you can use either an interface or a type to define the shape of an object.*/
 }
