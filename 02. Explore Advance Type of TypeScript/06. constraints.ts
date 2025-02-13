@@ -4,9 +4,9 @@
   */
 
   // Without constraints:
-  function getLng<T>(arg: T): number {
-    return arg.length; // ❌ Error: Property 'length' does not exist on type 'T'
-  }
+  // function getLng<T>(arg: T): number {
+  //   return arg.length; // ❌ Error: Property 'length' does not exist on type 'T'
+  // }
 
   //Fix with a constraint to ensure T has a length property:
 
