@@ -17,7 +17,7 @@
 
     const data = await response.json();
     return data;
-    // console.log(data);
+    console.log(data);
   };
 
   getTodo();
@@ -41,7 +41,7 @@
   const showData = async (): Promise<Something> => {
     const data: Something = await createPromise();
     return data;
-    // console.log(data);
+    console.log(data);
   };
 
   showData();
